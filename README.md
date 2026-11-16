@@ -26,7 +26,7 @@ assets/
   og-cover.jpg        картинка для Open Graph (1200×630)
   img/*.jpg           фотографии центра
   fonts/*.woff2       Manrope и Caveat — локально, без Google Fonts
-favicon.svg
+favicon.png
 site.webmanifest
 robots.txt
 sitemap.xml
@@ -61,7 +61,7 @@ sitemap.xml
 - адрес и время связи — блок 9 и подвал (сейчас «ТСН „Варшана“, Краснодарский край» и пояснение, что точный адрес подскажут по телефону);
 - реквизиты оператора персональных данных — в `privacy.html`.
 
-Логотип `assets/logo.png` — из присланного PDF. Если у клиента есть исходник в векторе, замените файл и при необходимости обновите `favicon.svg`, `assets/apple-touch-icon.png` и `assets/og-cover.jpg`.
+Логотип `assets/logo.png` — из присланного PDF. Если у клиента есть исходник в векторе, замените файл и при необходимости обновите `favicon.png`, `assets/apple-touch-icon.png` и `assets/og-cover.jpg`.
 
 ### 2. Яндекс Метрика и цели
 
