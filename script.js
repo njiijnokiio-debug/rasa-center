@@ -186,7 +186,6 @@
   const galleryButtons = Array.from(document.querySelectorAll("[data-lightbox]"));
   const lightbox = document.getElementById("lightbox");
   const lightboxImg = document.getElementById("lightbox-img");
-  const lightboxCaption = document.getElementById("lightbox-caption");
   const lightboxCounter = document.getElementById("lightbox-counter");
   let currentPhoto = 0;
 
@@ -199,7 +198,6 @@
 
     lightboxImg.src = img.currentSrc || img.src;
     lightboxImg.alt = img.alt || "";
-    if (lightboxCaption) lightboxCaption.textContent = button.dataset.caption || img.alt || "";
     if (lightboxCounter) {
       lightboxCounter.textContent = (currentPhoto + 1) + " / " + galleryButtons.length;
     }
