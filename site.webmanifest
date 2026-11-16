@@ -1,0 +1,25 @@
+{
+  "name": "Центр семейного образования «Раса»",
+  "short_name": "Раса",
+  "description": "Офлайн-центр семейного образования в ТСН «Варшана»: 1–9 классы, РКШ, ФГОС, подготовка к ОГЭ.",
+  "lang": "ru",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FBF6EE",
+  "theme_color": "#FBF6EE",
+  "icons": [
+    {
+      "src": "assets/logo.png",
+      "sizes": "240x240",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
