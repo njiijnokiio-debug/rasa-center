@@ -2,6 +2,8 @@
 
 Одностраничный адаптивный лендинг по ТЗ от 14.11.2026. HTML + CSS + ванильный JS, без сборки и зависимостей. Формы заявки нет: связаться с центром можно по телефону, указанному в блоке контактов и подвале.
 
+Живая версия: <https://njiijnokiio-debug.github.io/rasa-center/> (GitHub Pages).
+
 ## Быстрый запуск
 
 ```bash
@@ -55,7 +57,7 @@ sitemap.xml
 ### 1. Контакты и реквизиты
 
 - телефон `+7 926 366-10-32` и `tel:+79263661032` — по всему сайту (`index.html`, `privacy.html`);
-- домен `https://rasa-center.ru/` — в `index.html` (canonical, OG, JSON-LD), `privacy.html`, `sitemap.xml`, `robots.txt`;
+- адрес сайта `https://njiijnokiio-debug.github.io/rasa-center/` — в `index.html` (canonical, OG, JSON-LD), `privacy.html`, `sitemap.xml`, `robots.txt`. При подключении своего домена замените его по всему проекту;
 - адрес и время связи — блок 9 и подвал (сейчас «ТСН „Варшана“, Краснодарский край» и пояснение, что точный адрес подскажут по телефону);
 - реквизиты оператора персональных данных — в `privacy.html`.
 
@@ -124,11 +126,13 @@ sitemap.xml
 
 ## Деплой на GitHub Pages
 
-1. Создайте репозиторий на GitHub и запушьте файлы сайта в ветку `main`.
-2. В настройках репозитория: **Settings → Pages → Build and deployment → Source: Deploy from a branch**, ветка `main`, папка `/ (root)`.
-3. После публикации сайт будет доступен по адресу `https://<username>.github.io/<repo>/`.
-4. Для собственного домена: **Settings → Pages → Custom domain**, затем DNS-запись `CNAME` на `<username>.github.io` и включите HTTPS.
-5. Пропишите фактический адрес в canonical/OG/JSON-LD (`index.html`), `privacy.html`, `sitemap.xml` и `robots.txt`.
+Сайт уже опубликован: <https://njiijnokiio-debug.github.io/rasa-center/>.
+
+1. Репозиторий: `https://github.com/njiijnokiio-debug/rasa-center`, ветка `main`.
+2. Настройки Pages: **Settings → Pages → Source: Deploy from a branch**, ветка `main`, папка `/ (root)`.
+3. Чтобы обновить сайт, сделайте коммит и пуш в `main` — Pages пересоберётся автоматически.
+4. Для собственного домена: **Settings → Pages → Custom domain**, затем DNS-запись `CNAME` на `njiijnokiio-debug.github.io` и включите HTTPS.
+5. После подключения домена замените адрес `https://njiijnokiio-debug.github.io/rasa-center/` в `index.html`, `privacy.html`, `sitemap.xml` и `robots.txt`.
 6. `.htaccess` на GitHub Pages не работает — заголовки безопасности и кэширование настраиваются средствами хостинга или CDN.
 
 ## Деплой на обычный хостинг

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rasa-center.ru/sitemap.xml
+Sitemap: https://njiijnokiio-debug.github.io/rasa-center/sitemap.xml
